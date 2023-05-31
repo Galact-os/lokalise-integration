@@ -1,36 +1,18 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import englishTranslation from "./locale/en.json";
+import russianTranslation from "./locale/ru.json";
+import spanishTranslation from "./locale/es.json";
 
 const resources = {
   en_US: {
-    translation: {
-      "dp_explr_stage_teachSubHeadingLabel": "Teach",
-      "dp_explr_action_curriculumDrpDwnBtn": "Curriculum",
-      "dp_explr_action_levelDrpDwnBtn": "Level",
-      "dp_explr_action_moduleButton": "Module",
-      "dp_all_flow_upNext": "Up Next",
-      "dp_all_all_greatMinds": "GREAT MINDS"
-    }
+    translation: englishTranslation
   },
   ru: {
-    translation: {
-      "dp_explr_stage_teachSubHeadingLabel": "Научить",
-      "dp_explr_action_curriculumDrpDwnBtn": "Учебная программа",
-      "dp_explr_action_levelDrpDwnBtn": "Уровень",
-      "dp_explr_action_moduleButton": "Модуль",
-      "dp_all_flow_upNext": "Далее",
-      "dp_all_all_greatMinds": "GREAT MINDS"
-  }
+    translation: russianTranslation
   },
   es: {
-      translation: {
-        "dp_explr_stage_teachSubHeadingLabel": "Enseña",
-        "dp_explr_action_curriculumDrpDwnBtn": "Plan de estudios",
-        "dp_explr_action_levelDrpDwnBtn": "Nivel",
-        "dp_explr_action_moduleButton": "Módulo",
-        "dp_all_flow_upNext": "A continuación",
-        "dp_all_all_greatMinds": "GREAT MINDS"
-    }
+    translation: spanishTranslation
   }
 };
 

@@ -39,7 +39,7 @@ function App() {
       </select>
 
       <header className="App-header">
-        <label style={{ 'marginTop': '10vh'}}> ← {t('dp_explr_stage_teachSubHeadingLabel')}</label>
+        <label id="teachLabel" style={{ 'marginTop': '10vh'}}> ← {t('dp_explr_stage_teachSubHeadingLabel')}</label>
         <div style={{ display: 'flex' }}>
           <label id='curriculumLabel' style={{'margin': '33px'}}>{t('dp_explr_action_curriculumDrpDwnBtn')}</label>
           <label id='levelLabel' style={{'margin': '33px'}}>{t('dp_explr_action_levelDrpDwnBtn')}</label>
